@@ -19,8 +19,6 @@
     "dist": {
         "repo": "git@github.com:ez-tools/_test#dist",
         "stageDir": ".stage",
-        "baseDir": "src",
-        "files": [],
         "pkgFiles": null,
         "beforeStageCommand": "cp -rf src .stage",
         "afterReleaseCommand": "rm -rf .stage"
