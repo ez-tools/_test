@@ -17,13 +17,13 @@
         "afterReleaseCommand": false
     },
     "dist": {
-        "repo": "git@github.com:ez-tools/_test.js#dist",
+        "repo": "git@github.com:ez-tools/_test#dist",
         "stageDir": ".stage",
-        "baseDir": "dist",
-        "files": ["**/*"],
+        "baseDir": "src",
+        "files": [],
         "pkgFiles": null,
-        "beforeStageCommand": "cp -rf . .stage",
-        "afterReleaseCommand": false
+        "beforeStageCommand": "cp -rf src .stage",
+        "afterReleaseCommand": "rm -rf .stage"
     },
     "npm": {
         "publish": false,
